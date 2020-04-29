@@ -19,8 +19,7 @@
 
 	<!-- Internal Stylesheets -->
 	<link rel="stylesheet" href="./assets/css/main.css">
-
-
+	<link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
@@ -32,11 +31,11 @@
 
 	<div class="page">
 
-		<nav class="navbar navbar-expand-md fixed-top">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-home">
 
 			<div class="container">
 				<!-- Navbar Brand -->
-				<a class="navbar-brand col-sm-4" href="./index.html">
+				<a class="navbar-brand col-9 col-lg-4" href="./index.html">
 					<img src="./assets/images/icons/navbar-logo.png">
 					<div>
 						<h1>Oosthuizens (JHB)</h1>
@@ -48,25 +47,40 @@
 				<div class="collapse navbar-collapse col-sm-8 justify-content-end" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="./index.html">Home</a>
+							<a class="nav-link active" href="./index.html">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="./about.html">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="./services.html">Practice Areas</a>
+							<a class="nav-link" href="./services.html">Practice Areas</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="./contact.html">Contact Us</a>
 						</li>
 					</ul>
 				</div>
+
+				<!-- Navbar Toggler -->
+				<div class="mobile-nav-toggler d-block d-lg-none">
+					<i class="far fa-bars"></i>
+				</div>
+
 			</div>
-
-
-			<!-- Navbar Toggler -->
 		</nav>
 
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+			<div class="mobile-nav-inner">
+				<i class="mobile-nav-close">&times;</i>
+				<div class="mobile-nav-content">
+					<a class="nav-link active" href="./index.html">Home</a>
+					<a class="nav-link" href="./about.html">About</a>
+					<a class="nav-link" href="./services.html">Practice Areas</a>
+					<a class="nav-link" href="./contact.html">Contact Us</a>
+				</div>
+			</div>
+		</nav>
 
 		<!-- Services Section -->
 		<section class="services-section">

@@ -129,6 +129,72 @@ h6 {
     color: var(--red);
 }
 
+/* Mobile Nav */
+
+.mobile-nav-toggler {
+    border: 2px solid var(--red);
+    cursor: pointer;
+}
+
+.mobile-nav-toggler {
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+}
+
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    height: 100vh;
+    z-index: 2000;
+    background-image: url("../images/other/mobile-nav.jpg");
+    background-position: center center;
+    background-size: cover;
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+
+.mobile-nav-open {
+    width: 90vw;
+    border-left: 5px solid var(--red);
+}
+
+.mobile-nav-inner {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(43, 39, 44, 0.925);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.mobile-nav-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.mobile-nav-content {}
+
+.mobile-nav-content a {
+    text-align: right;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+
 /* Scrolbars */
 
 ::-webkit-scrollbar {
@@ -541,36 +607,6 @@ footer {
 
 
 
-/* Experience Section */
-.section-experience {
-    text-align: center;
-    background-image: url("../images/sections/experience.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: white;
-}
-
-.section-experience .section-inner {
-    background-color: rgba(43, 39, 44, 0.9);
-    padding: 5rem 0;
-    height: 100%;
-    width: 100%;
-}
-
-.section-experience h2 {
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.section-experience .divider {
-    height: 2px;
-    background-color: var(--red);
-    width: 20%;
-    margin: 1rem auto;
-}
-
-
 /* COntact Section */
 
 .contact-image {
@@ -657,8 +693,7 @@ footer {
 /* --------------------------- */
 /* CONTACT PAGE */
 .body-contact .section-contact {
-    margin-top: 30vh;
-
+    margin-top: 7rem;
 }
 
 /* Contact Form */
@@ -707,7 +742,6 @@ footer {
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     font-weight: 300;
-    ;
 }
 
 .contact-form input:focus,
@@ -769,16 +803,12 @@ footer {
     height: 65vh;
 }
 
-
-
-
-
 /* ------------------- */
 
 /* SERVICES PAGE */
 
 .body-services .services-section {
-    margin-top: 40vh;
+    margin-top: 10rem;
     background-image: none;
 }
 
@@ -809,6 +839,7 @@ footer {
 
 .services-list {
     list-style: none;
+    padding-left: 0;
 }
 
 .services-list li {
@@ -868,7 +899,7 @@ footer {
 
 /* ABOUT PAGE */
 .body-about .section-about {
-    margin-top: 30vh;
+    margin-top: 10rem;
 }
 
 
@@ -917,4 +948,33 @@ footer {
 .team-grid .card a:hover {
     color: var(--red);
     text-decoration: none;
+}
+
+/* Experience Section */
+.section-experience {
+    text-align: center;
+    background-image: url("../images/sections/experience.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.section-experience .section-inner {
+    background-color: rgba(43, 39, 44, 0.9);
+    padding: 5rem 0;
+    height: 100%;
+    width: 100%;
+}
+
+.section-experience h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.section-experience .divider {
+    height: 2px;
+    background-color: var(--red);
+    width: 20%;
+    margin: 1rem auto;
 }

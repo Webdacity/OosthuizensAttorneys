@@ -1,0 +1,47 @@
+@media screen and (max-width:991px) {
+    .navbar-brand {
+        justify-content: left;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    /* Contact Page */
+
+    .contact-info {
+        margin-top: 3rem;
+        border-right: none;
+        padding-right: 15px;
+    }
+
+    .contact-form {
+        padding-left: 15px;
+    }
+
+    /* Services Page */
+    .service .service-heading {
+        justify-content: left;
+        padding-left: 1rem;
+    }
+
+    .service .service-heading h2 {
+        font-size: 1.75rem;
+    }
+
+    .service .divider {
+        margin: 1rem 0 2rem 3rem;
+    }
+
+    .services-list {
+        padding-left: 2rem;
+    }
+
+
+
+}
+
+@media screen and (max-width:576px) {
+    .navbar-brand>div {
+        display: none;
+    }
+}

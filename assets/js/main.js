@@ -18,3 +18,15 @@ window.onload = (event) => {
         $(".snazzy-map").html(`<iframe src="https://snazzymaps.com/embed/234570" style="border:none;"></iframe>`);
     }
 };
+
+// Navbar
+
+$(".mobile-nav-toggler").click(function () {
+    $(".mobile-nav").addClass("mobile-nav-open");
+    $("html").css("overflow-y", "hidden")
+})
+
+$(".mobile-nav-close").click(function () {
+    $(".mobile-nav").removeClass("mobile-nav-open");
+    $("html").css("overflow-y", "scroll")
+})
