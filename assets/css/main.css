@@ -140,10 +140,11 @@ h6 {
     font-size: 1.2rem;
     color: white;
     padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
 }
 
 .mobile-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 0;
@@ -184,6 +185,7 @@ h6 {
     color: white;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .mobile-nav-content {}
