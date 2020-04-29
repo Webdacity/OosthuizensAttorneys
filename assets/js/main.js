@@ -14,6 +14,7 @@ $(document).on("scroll", () => {
 window.onload = (event) => {
     $(".page-loader").fadeOut(1000);
     $(".page").fadeIn(1000);
-    $(".photo-section").html(galleryContent)
-    $(".snazzy-map").html(`<iframe src="https://snazzymaps.com/embed/170028"></iframe>`);
+    if (window.location.pathname === "/contact.html") {
+        $(".snazzy-map").html(`<iframe src="https://snazzymaps.com/embed/234570" style="border:none;"></iframe>`);
+    }
 };
