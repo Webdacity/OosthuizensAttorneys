@@ -841,10 +841,26 @@ footer {
 .team-grid .card {
     border: none;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .team-grid .card p {
     color: var(--red);
+}
+
+.team-grid .row {
+    justify-content: space-between;
+}
+
+.team-grid .card img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: 2px solid var(--dark);
 }
 
 .team-grid .card a {
