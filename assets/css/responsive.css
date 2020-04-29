@@ -1,11 +1,17 @@
 @media screen and (max-width:991px) {
-    .navbar-brand {
+    .navbar .navbar-brand {
         justify-content: left;
     }
 
 }
 
 @media screen and (max-width:768px) {
+    /* General  */
+
+    .section-heading p {
+        padding: unset;
+    }
+
     /* Contact Page */
 
     .contact-info {
@@ -36,12 +42,39 @@
         padding-left: 2rem;
     }
 
+    /* Home Page */
+    .slider-inner p {
+        padding: 0;
+    }
+
+    .welcome-text .section-heading {
+        text-align: center;
+    }
+
+    .welcome-section .section-number {
+        justify-content: center;
+    }
+
+    .welcome-text {
+        padding: 2rem 1rem
+    }
+
+    .contact-details {
+        padding: 2.5rem 1rem;
+    }
+
+    .contact-details form {
+        padding: 1rem;
+    }
+
+
+
 
 
 }
 
 @media screen and (max-width:576px) {
-    .navbar-brand>div {
+    .navbar .navbar-brand>div {
         display: none;
     }
 }
