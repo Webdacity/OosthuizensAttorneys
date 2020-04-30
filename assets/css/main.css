@@ -188,8 +188,6 @@ h6 {
     cursor: pointer;
 }
 
-.mobile-nav-content {}
-
 .mobile-nav-content a {
     text-align: right;
     font-size: 1.5rem;
@@ -900,7 +898,7 @@ footer {
 
 /* ABOUT PAGE */
 .body-about .section-about {
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 
