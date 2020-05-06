@@ -291,8 +291,9 @@ footer {
 .footer-copy {
     padding: 0.5rem;
     text-align: center;
-    background-color: var(--light-grey);
+    background-color: var(--dark-grey);
     margin-top: 2rem;
+    border-top: 1px solid var(--red);
 }
 
 .footer-copy p {
