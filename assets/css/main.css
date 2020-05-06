@@ -894,6 +894,16 @@ footer {
     background-attachment: fixed;
 }
 
+.services-section .service:last-child {
+    padding: 4rem 0;
+}
+
+.service .container p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
 /* -------------------- */
 
 /* ABOUT PAGE */
