@@ -536,7 +536,6 @@ footer {
 /* Services Section */
 
 .services-section {
-    min-height: 100vh;
     background-image: url("../images/sections/services.jpg");
     background-position: center;
     background-size: cover;
@@ -907,6 +906,17 @@ footer {
     padding-bottom: 2rem;
     line-height: 1.5;
     color: var(--grey);
+}
+
+.section-about .section-heading {
+    margin-bottom: 2rem;
+}
+
+.section-about .divider {
+    height: 2px;
+    background-color: var(--red);
+    width: 20%;
+    margin: 2rem auto
 }
 
 .team-grid .card {
