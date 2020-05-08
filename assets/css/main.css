@@ -940,6 +940,10 @@ footer {
     color: var(--red);
 }
 
+.card-body {
+    padding: 1.25rem 0;
+}
+
 .team-grid .row {
     justify-content: space-between;
 }
