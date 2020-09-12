@@ -483,7 +483,7 @@ footer {
 /* Welcome Section */
 
 .welcome-section {
-    background-image: url("../images/patterns/light-paper.png");
+    background-color: white;
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -889,7 +889,7 @@ footer {
 
 /* Service Even */
 .services-section .service:nth-child(even) {
-    background-image: url("../images/patterns/light-paper.png");
+    background-color: white;
     background-repeat: repeat;
     background-attachment: fixed;
 }
